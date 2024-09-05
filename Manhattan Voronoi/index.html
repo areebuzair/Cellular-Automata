@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Cellular Automata - Voronoi</title>
+    <link href="./style.css" rel="stylesheet">
+    <script src="./script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Manhattan Distance Voronoi Pattern using Cellular Automata</h1>
+        <h5>5 September, 2024</h5>
+        <hr>
+        <button type="button">Begin!</button><br>
+        <canvas id="cnv"></canvas>
+        <ol>
+            <li>An infected cell will remain unchanged.</li>
+            <li>A healthy cell with no infected neighbours will remain healthy.</li>
+            <li>A healthy cell having one or more infected neighbours of the same type will develop the same infection.
+            </li>
+            <li>A healthy cell having two or more infected neighbours of different types will die.</li>
+        </ol>
+    </div>
+</body>
+
+</html>
