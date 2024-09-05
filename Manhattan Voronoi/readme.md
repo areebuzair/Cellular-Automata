@@ -2,7 +2,7 @@
 #### 5 September, 2024
 ___
 
-![Voronoi Pattern Placeholder]("Manhattan Voronoi.jpg")
+![Voronoi Pattern Placeholder](Manhattan%20Voronoi.jpg)
 
 Rules:
 1. An infected cell will remain unchanged.
