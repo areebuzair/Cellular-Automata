@@ -1,0 +1,33 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: aquamarine;
+    color: black;
+}
+
+.container {
+    max-width: 800px;
+    margin: 5px auto;
+    text-align: justify;
+}
+
+h1 {
+    text-align: center;
+}
+
+li {
+    list-style-type: disc;
+    font-size: 200%;
+}
+
+a {
+    color: rgb(0, 49, 133);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(88, 92, 95);
+}
+
+a::before {
+    content: attr(href);
+}
